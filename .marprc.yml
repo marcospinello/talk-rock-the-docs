@@ -1,0 +1,50 @@
+allowLocalFiles: true
+inputDir: ./source
+output: ./output
+themeSet: ./assets/themes
+theme: socrates
+template: bespoke
+size: 16:9
+lang: en
+paginate: true
+html: true
+# pdf: true
+# pptx: true
+options:
+  looseYAML: false
+  markdown:
+    breaks: false
+    watch: true
+    html:
+      enabled: true
+      allowedTags:
+        - div
+        - iframe
+        - video
+      allowedAttributes:
+        # Global attributes permitted for all (from your requirements)
+        '*': [ 'class', 'id', 'style' ]
+        # div-specific
+        div: [ 'class', 'id', 'style' ]
+        # iframe-specific
+        iframe:
+          - src
+          - height
+          - width
+          - sandbox  # You control allowed values via content, e.g., sandbox="allow-presentation allow-same-origin"
+          - class
+          - id
+          - style
+        # video-specific
+        video:
+          - src
+          - height
+          - width
+          - type
+          - autoplay
+          - controls
+          - controlsList
+          - crossorigin  # For use-credentials, you'll write: crossorigin="use-credentials"
+          - class
+          - id
+          - style
