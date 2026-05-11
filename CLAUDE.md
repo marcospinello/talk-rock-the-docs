@@ -4,35 +4,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository purpose
 
-A single [Marp](https://marp.app/) presentation deck. The talk is "When AI goes off script — Tales from the docs pipelines" (the README still describes an earlier music-theory-themed version of the talk; the actual slide content has moved on). There is no application code here — the deliverable is a slide deck rendered from Markdown.
+A single [Marp](https://marp.app/) presentation deck — "Rock the docs 🤘", a talk applying music theory and band dynamics to technical writing. There is no application code; the deliverable is a slide deck rendered from Markdown to HTML/PDF/PPTX.
 
 ## Layout
 
-- `source/slides.md` — the only source file for the deck. Marp front matter at the top sets author/title and an inline `style:` block that imports Font Awesome and tweaks colors. HTML comments (`<!-- ... -->`) are speaker notes.
-- `assets/img/` — images referenced from slides as `../assets/img/<name>` (paths are resolved relative to `source/slides.md`, not the repo root).
-- `assets/themes/*.css` — a large collection of custom Marp themes (from the third-party "MarpX" project, MIT-licensed). Activate one by adding `theme: <name>` to the front matter and registering the CSS via Marp CLI's `--theme` flag.
-- `output/` — destination for built artifacts (HTML/PDF/PPTX). Currently empty; nothing is committed here.
-- `.vale.ini` + `vale-styles/` — prose-linting config. Both are listed in `.gitignore` and `vale-styles/` is managed by `vale sync` (the `Packages = Google, proselint, write-good, MDX` line tells Vale what to fetch). Treat them as local-only artifacts.
+- `source/slides.md` — the only source file for the deck. Marp front matter at the top sets author/title and an inline `style:` block that imports Font Awesome and tweaks colors. HTML comments (`<!-- ... -->`) are speaker notes, not dead content.
+- `.marprc.yml` — central Marp CLI config. Sets `inputDir: ./source`, `output: ./output`, `themeSet: ./assets/themes`, the active `theme: socrates`, `template: bespoke`, and an HTML allowlist (`div`, `iframe`, `video`). The npm scripts pass `--config-file .marprc.yml`, so flags here apply to every build.
+- `assets/img/` — images referenced from slides as `../assets/img/<name>` (paths resolve relative to `source/slides.md`, not the repo root).
+- `assets/themes/*.css` — large collection of custom Marp themes (third-party "MarpX" project, MIT). Switch decks by changing `theme:` in `.marprc.yml`; `themeSet` already registers the whole directory.
+- `output/` — built artifacts (`slides.html`, `slides.pdf`, `slides.pptx`).
+- `.vale.ini` + `vale-styles/` — prose-linting config, both gitignored. `vale-styles/` is populated by `vale sync` per the `Packages = Google, proselint, write-good, MDX` line. Treat as local-only artifacts.
+- `playground/`, `plans/`, `.remember/` — local-only scratch (gitignored or used for in-progress notes); not part of the deck.
 
 ## Common commands
 
-There is no `package.json`, `Makefile`, or build script. Use Marp CLI directly, run from the repo root so the relative `../assets/img/...` references resolve:
+Builds go through the npm scripts so `.marprc.yml` is always honored:
 
 ```bash
-# HTML preview
-marp source/slides.md -o output/slides.html --html
-
-# PDF
-marp source/slides.md -o output/slides.pdf --pdf --allow-local-files
-
-# Use a custom theme from assets/themes/
-marp source/slides.md -o output/slides.html --theme assets/themes/marpx.css
-
-# Live server for editing
-marp -s source/
+npm run marp:serve   # live preview server on PORT=9999, watches all files
+npm run marp:html    # build HTML to output/
+npm run marp:pdf     # build PDF (uses --allow-local-files for image embedding)
+npm run marp:pptx    # build PPTX
+npm run lint         # markdownlint *.md
+npm run format       # markdownlint --fix *.md
 ```
 
-`--allow-local-files` is required when exporting PDF/PPTX because slides pull in local images.
+`--allow-local-files` is required for PDF/PPTX so the slides can pull in `../assets/img/...`. The npm scripts already pass it; if invoking `marp` directly, add it yourself.
 
 For prose linting (after `vale sync` populates `vale-styles/`):
 
@@ -44,5 +41,6 @@ vale source/slides.md
 
 - Slides are separated by `---` on its own line. Don't reflow the document — each slide is a discrete unit.
 - Background images use Marp's directive syntax inside an image tag, e.g. `![bg right:50%](../assets/img/foo.jpg)` and `![bg contain](../assets/img/bar.png)`. Keep this syntax intact when editing.
-- Inline HTML (e.g. `<span>`, `<i class="fa-...">` for Font Awesome icons, `<br />`) is intentional and required for the visual effects — don't "clean it up" to plain Markdown.
-- Speaker notes live in `<!-- ... -->` HTML comments under the slide they belong to. Preserve them; they're not dead content.
+- Inline HTML (`<span>`, `<i class="fa-...">` for Font Awesome icons, `<br />`, and `div`/`iframe`/`video` allowed by `.marprc.yml`) is intentional and required for visual effects — don't simplify it to plain Markdown.
+- Speaker notes live in `<!-- ... -->` HTML comments under the slide they belong to. Preserve them.
+- The active theme is set in `.marprc.yml`, not in the slide front matter. Change it there so all output formats stay consistent.
