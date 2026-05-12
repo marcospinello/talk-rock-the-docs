@@ -313,6 +313,28 @@ Slow down here. The next ~9 minutes are memoir.
 
 ---
 
+## Get the sound right at the amp.
+
+If the source is solid, mixing becomes aesthetic — chiseling, not repair.
+
+### That's shift-left for bands.
+
+<!--
+The whole band did this work before we hit record. Solid amp tones, tight rhythm,
+instruments tuned to each other's frequencies. When the source is good, the mix
+is *artistic* — we used EQ, shimmer reverb, modulation as chisels, not as damage
+control.
+
+Name the term: that's *shift-left*. The audience knows it from their own org's
+playbook. The docs version: get IA, style, and voice right at the source — then
+review and editing become craft, not repair.
+
+This is also why I could afford to "stay for the mix" in the next slides — there
+was art to make, not damage to undo.
+-->
+
+---
+
 ## When we recorded the album
 
 We tracked over a few weekends in a friend's studio.
@@ -341,21 +363,56 @@ I wasn't there to "approve." I was there because the mix was the work.
 
 ---
 
-## The decision that changed the record
+## Okefenokee — 3:24
 
-<span class="quiet">[Specific mix moment — to be filled in by speaker]</span>
+The song slows down. Opens up. Creates space to breathe.
 
-### Nobody else was going to make that call.
+- Bass and rhythm guitar tight — minimal effects, just thickening reverb
+- Drums go Bonham — deep kick, deep toms, ethereal cymbals
+- The break is the doorway
 
 <!--
-Pick ONE specific moment from the mix and tell it concrete. ~90 seconds.
-Candidates:
-  - A take you almost cut that became the album's best moment
-  - An EQ / compression call that changed a song's character
-  - A part where the engineer pushed back and you were right (or wrong, and learned)
-  - A moment where you and the engineer disagreed and the disagreement made the record
+Bring the audience into the song. If A/V allows, play 10–15 seconds of the break.
+Otherwise paint it: the rest of the song is tight rhythm and groove — this break
+is the *contrast*. Cinematic rock. Space to breathe.
 
-The slide stays vague on purpose; your voice does the work here.
+The mix moves here are mostly *subtractive* — pulling effects off bass and rhythm
+guitar so the drums can be huge. That's a band decision before it's a mix decision:
+we agreed in the rehearsal room that this section breathes.
+
+(Clarify "Drums go Bonham" aloud as needed: deep kick, deep toms, ethereal
+ride/crash — the Bonham/Zeppelin signature feel.)
+-->
+
+---
+
+## The solo
+
+### A wave breaking on the rocks.
+
+Bridge humbucker. EQ for warmth. Reverb for thickness. Delay for depth.
+
+I carried that wave from the songwriting room.
+Every take, every mix decision, was aimed at it.
+
+<!--
+The wave wasn't an idea I came up with in the studio. It was the image I'd been
+carrying since I wrote the part — through arrangement, through tracking, into the mix.
+
+**The take itself was hard.** I played the solo many times before I got it right.
+It had to be one whole take with no edits — there were no good places to cut. So
+I kept playing until a single take from start to finish matched what I heard in
+my head.
+
+Then in the mix room, my friend the engineer and I **deliberately refined** every
+layer — EQ, reverb depth, delay timing — until the sound on tape matched the
+picture I'd carried since the songwriting room.
+
+Every layer of the band — writing, arranging, tracking, mixing — was aimed at the
+same image. That's what bandmates do. Session musicians track their part and hope
+the rest comes together. I refused to hope. I stayed.
+
+(Bridge to next slide: "I didn't ship the file and walk away. I stayed for the mix.")
 -->
 
 ---
@@ -423,21 +480,28 @@ kinds of moves you can even attempt.
 
 ---
 
-## In the studio, we made one workflow call early.
+## How we shipped the record
 
-<span class="quiet">[Specific workflow / process decision — to be filled in by speaker]</span>
+Live tracking. Reversible. Rough mixes as we went.
 
-### Everything we could do later was set by that call.
+### Two raw mixes, review comments, final — like a git PR review.
 
 <!--
-Pick ONE process / workflow decision from the recording — process, not gear.
-Candidates:
-  - "We mixed roughs as we went" → caught problems while songs grew, not after
-  - "We named files this specific way" → could find anything six months later
-  - "We shared sessions over [tool]" → engineer could work between our sessions
-  - "We tracked drums and bass live" → committed to the take instead of fixing it later
+The whole recording ran like a well-managed repo:
 
-~45 seconds. The point: the workflow opens or closes doors before any music happens.
+- **Live tracking with click**, in order: drums (foundation), bass (groove),
+  guitar (melody and harmonic richness). The order is the same shape as the
+  docs version: structure first, then voice.
+- **Reversible at every step** — every decision could be rolled back, no data
+  lost. That's git, but for audio.
+- **Rough mixes as we tracked** — we caught problems while songs were still
+  growing. Short iteration loops, fast feedback.
+- And then: **2 raw mixes → review comments → final mix**. We sat with each
+  mix, marked what was off, refined, listened again. If you're a tech writer,
+  you've done this shape — it's a PR review.
+
+The point: *workflow is the tooling*. Every practice we used has a docs analog
+you already know. The next slide makes them concrete.
 -->
 
 ---
