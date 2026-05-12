@@ -1,176 +1,235 @@
-# Rock the docs — work recap (session 3)
+# Rock the docs — work recap (session 3, full day)
 
-Resumes from `/playground/work-recap-so-far.md` (session 1) and `/playground/work-recap-2.md` (session 2). Read both first for the full chain of brainstorming reasoning. This file captures everything decided and built in session 3.
+Resumes from `/playground/work-recap-so-far.md` (session 1) and `/playground/work-recap-2.md` (session 2). Read both first for the full chain of brainstorming reasoning. **This file supersedes the earlier morning-only version of `work-recap-3.md` (committed in `9d16f90`); the old version remains in git history.**
 
-## Status
+This is the comprehensive session-3 recap covering both morning (brainstorming → v0.1 implementation) and afternoon (memoir fills → v0.2 → image plan approved).
 
-**Brainstorming complete. First implementation pass done.** Plan was written and user-approved (`plans/your-recommendation-option-c-fluttering-teacup.md`). Theme switched, `source/slides.md` fully rewritten with 30 slides + speaker notes. Build verified clean. Two speaker-fillable placeholders remain (your specific memoir moments). All work committed to git.
+## Status (right now)
 
-## What was decided this session
+- **Latest git commit:** `8313689 Slide deck v.0.2`
+- **Working tree:** clean
+- **Deck:** complete first draft. **Both memoir placeholders filled.** No text placeholders remain. 32 content slides total.
+- **Build:** clean. `npm run marp:html` passes; `npm run lint` only flags pre-existing line-length issues in `CLAUDE.md` and `README.md` (not slides).
+- **Images:** `assets/img/` is still empty. Image plan was reviewed and approved before pause but **directives have NOT been added to `slides.md` yet** — that's the next implementation step on resume.
+- **Pause reason:** speaker out for ~2 hours; we resume from this exact state.
 
-### Talk parameters changed
-- **Length: 40–45 min → ~30 min.** The locked "4 roles × 7–8 min each" math no longer holds at 30 min; we resolved this with Option C below.
+## What was locked across all three sessions
 
-### Decisions locked (in the order we took them)
+Carrying forward all decisions from sessions 1 and 2, plus the new ones from session 3.
 
-1. **Texture rotation — Option A** (the queued-but-unsent recommendation from session 2):
-   - Foundation = case-study
-   - Voice = contrarian
-   - Polish = memoir
-   - Tooling = tactic
+### Talk parameters (all locked, not to be re-asked)
+- **Title:** "Rock the docs 🤘 / Applying music theory and band dynamics to technical writing"
+- **Length:** ~30 minutes (changed in session 3 from the original 40–45 min)
+- **Audience:** Mostly fellow tech writers
+- **Lens:** Band dynamics as the dominant metaphor
+- **Thesis:** *Writers are bandmates, not session musicians.*
+- **Personal context:** Speaker plays guitar in an instrumental power trio; co-mixed and co-mastered the band's record with a friend who is the recording engineer.
 
-2. **Section budget — Option C (unequal weights):**
-   - Foundation: ~5–6 min (lean 3-beat, drop contrarian)
-   - Voice: ~6 min (full 4-beat)
-   - Polish: ~9 min (memoir breathes)
-   - Tooling: ~5–6 min (lean 3-beat, drop contrarian)
-   - Cold open + closer eat ~4 min total. Total ~30 min.
+### Narrative spine — Spine A (anatomy of a band, role-driven)
+- 4 roles: **Foundation → Voice → Polish → Tooling**
+- Per-section structural beats: role → real-band case → what session-musician thinking gets wrong → Monday-morning move
 
-3. **Cold open — disco-band-shrinking-to-trio reorg.** Plunders the framing already in the talk announcement comments; "company reorg with built-in product pivot" is the audience hook before the thesis is named.
+### Section budget — Option C (unequal weights)
+- Foundation: ~5–6 min (lean 3-beat, drop contrarian)
+- Voice: ~6 min (full 4-beat)
+- Polish: ~9 min (memoir breathes — now 9 slides after session-3 expansion)
+- Tooling: ~5–6 min (lean 3-beat, drop contrarian)
 
-4. **Foundation case anchor — Tower of Power's rhythm section.** Interlocking precision = IA-as-system. Flag: TOP is instantly recognizable to musicians but a tech-writer audience may need a 5-second audio cue (slide notes recommend "What Is Hip"). Polish-pass decision once venue A/V is known.
+### Texture rotation — Option A
+- Foundation = case-study
+- Voice = contrarian
+- Polish = memoir
+- Tooling = tactic (now powered by mini-memoir + workflow story)
 
-5. **Voice case anchor — Cream.** Three virtuosos trading voice across instruments and microphones; "Sunshine of Your Love" riff is the voice before any vocals. Supports the contrarian claim *"voice is not the singer's job; voice is a band sport."*
+### Per-section case anchors
+- **Foundation:** Tower of Power's rhythm section (interlocking precision = IA-as-system)
+- **Voice:** Cream (three virtuosos trading voice — voice as band property, not singer's job)
+- **Polish:** Speaker's own story — recording the album with the engineer-friend, *Okefenokee* break + solo
+- **Tooling:** Mini-memoir of the band's recording workflow (live tracking with click, reversibility, rough mixes as we tracked, two raw mixes → review comments → final, "like a git PR review")
 
-6. **Tooling case anchor — mini-memoir from your recording setup.** Acknowledged tradeoff: two memoir-flavored sections in a row (Polish then Tooling). Decided this is fine because the closer's emotional weight benefits from already being in personal-story territory.
+### Cold open + closer
+- **Cold open:** disco-band-shrinking-to-trio reorg (3 slides ladder: 8-piece → trio → "same shape as your last reorg" → thesis reveal)
+- **Closer:** callback to disco-to-trio cold open, then manifesto, then thank-you
 
-7. **Tooling angle — process/workflow decision (not gear).** Tactic shape: *"the workflow is the tooling; what you automate decides what you can sound like."* Strong fit for the writer audience (CI, lint-on-commit, doc-as-code, CMS choice).
+### Manifesto — Variant A (imperative, measured), 5 lines
+```
+Lock the foundation, then play.
+Find the voice with the band, not for it.
+Stay for the mix.
+Choose your workflow like an instrument.
+Be a bandmate, not a session musician.
+```
 
-8. **Manifesto tone — imperative commands.** "Band rules taped to the rehearsal-room wall."
+### Theme
+`socrates` → **`dracula`** (locked in session 3, set in `.marprc.yml`)
 
-9. **Manifesto draft — Variant A (measured commands), 5 lines:**
-   ```
-   Lock the foundation, then play.
-   Find the voice with the band, not for it.
-   Stay for the mix.
-   Choose your workflow like an instrument.
-   Be a bandmate, not a session musician.
-   ```
+## What was implemented this session
 
-10. **Theme — switch from `socrates` to `dracula`.** Dark mode, dev-aesthetic contrast, set in `.marprc.yml` so all output formats stay consistent.
+### Morning — brainstorm to v0.1 (committed)
+Commits: `1ef75e6` (gitignore fix), `750046b` (slide deck v0.1), `9d16f90` (initial work recap).
 
-## What was implemented
+- **`.gitignore`** — fixed a real bug. The session-2 attempt at `!playground/foo.md` exceptions was non-functional because git can't re-include files inside an excluded parent dir. Changed `playground/` → `playground/*` so exceptions actually work. The recap files are now genuinely tracked.
+- **`.marprc.yml`** — `theme: socrates` → `theme: dracula`.
+- **`source/slides.md`** — full v0.1 rewrite. 30 slides, all with speaker notes. Front matter retains FA import + helper CSS classes (`.big`, `.huge`, `.quiet`, `.accent`, `.manifesto p`). Original talk-announcement copy preserved as a phrase-bank comment at the bottom.
+- **`plans/your-recommendation-option-c-fluttering-teacup.md`** — full plan written during plan mode and approved. Captures locked decisions, slide-by-slide outline, file-changes list, verification steps. *(Auto-generated whimsical filename — cosmetic only; consider renaming on a future commit.)*
+- **`output/slides.html`** — rebuilt on dracula.
 
-### Files modified
-- **`.marprc.yml`** — single-line change: `theme: socrates` → `theme: dracula`.
-- **`source/slides.md`** — full rewrite. 30 slides, all with speaker notes in `<!-- ... -->` HTML comments. Front matter retains the existing FA import and adds helper CSS classes (`.big`, `.huge`, `.quiet`, `.accent`, `.manifesto p`). Original talk-announcement copy preserved as a comment at the bottom of the file as a phrase bank for Q&A.
-- **`.gitignore`** — fixed a real bug: the prior exception attempt (`!playground/foo.md`) was non-functional because `playground/` excluded the parent dir, and git can't re-include a file whose parent dir is excluded. Changed to `playground/*` so the exceptions actually work. The recap files are now genuinely trackable.
-- **`output/slides.html`** — rebuilt on dracula by `npm run marp:html`.
+### Afternoon — memoir fills to v0.2 (committed)
+Commit: `8313689` (slide deck v0.2).
 
-### Files added (now tracked thanks to the gitignore fix)
-- `playground/progress-status.md`, `playground/work-recap-so-far.md`, `playground/work-recap-2.md` — the prior session's recaps.
+Two memoir placeholders from v0.1 were filled in concrete detail. The Polish section grew from 7 slides to 9 (added shift-left slide + split memoir-3 into two Okefenokee slides). Total deck: 30 → 32 slides.
 
-### Plan written
-`plans/your-recommendation-option-c-fluttering-teacup.md` — full plan file written during plan mode and approved. Captures the locked decisions, slide-by-slide outline, files-to-modify list, and verification steps. The auto-generated filename is whimsical; consider renaming to `plans/rock-the-docs-design.md` if it bothers you (cosmetic only).
+#### Polish section, current shape (slides 17–25)
 
-### Slide-by-slide outline (as built in `source/slides.md`)
-
-| # | Section | Title / focus |
+| # | Slide | Status |
 |---|---|---|
-| 1 | Open | Title slide |
-| 2 | Open | "I used to play in an 8-piece disco band." |
-| 3 | Open | "Then it became a power trio." |
-| 4 | Open | "Same shape as your last reorg." |
-| 5 | Open | Thesis reveal — "Writers are bandmates, not session musicians." |
-| 6 | About | About me (TW + guitarist + co-mixed the album) |
-| 7 | Map | Where we're going (4 sections preview) |
-| 8 | Foundation | Foundation: rhythm section intro |
-| 9 | Foundation | Tower of Power case |
-| 10 | Foundation | What "session musician" thinking gets wrong |
-| 11 | Foundation | Monday-morning move ("Lock the foundation, then play") |
-| 12 | Voice | Voice: in a trio, no singer — guitar is the voice |
-| 13 | Voice | Contrarian — "Voice is not the singer's job. It's a band sport." |
-| 14 | Voice | Cream case |
-| 15 | Voice | What "session musician" thinking gets wrong about voice |
-| 16 | Voice | Monday-morning move ("Find the voice with the band, not for it") |
-| 17 | Polish | Polish: the producer's chair intro |
-| 18 | Polish | Memoir 1 — set the scene ("When we recorded the album") |
-| 19 | Polish | Memoir 2 — co-mixing with the engineer-friend |
-| 20 | Polish | **Memoir 3 — the decision that changed the record [PLACEHOLDER]** |
-| 21 | Polish | Thesis lived — "I didn't ship the file and walk away. I stayed for the mix." |
-| 22 | Polish | What "session musician" thinking gets wrong about polish |
-| 23 | Polish | Monday-morning move ("Stay for the mix") |
-| 24 | Tooling | Tooling: the workflow as instrument intro |
-| 25 | Tooling | **Mini-memoir — workflow call early in the recording [PLACEHOLDER]** |
-| 26 | Tooling | The tactic ("the workflow is the tooling") with comparison table |
-| 27 | Tooling | Monday-morning move ("Choose your workflow like an instrument") |
-| 28 | Close | Closer callback — the trio survived because everyone was a bandmate |
-| 29 | Close | Manifesto — the 5 imperatives (Variant A) |
-| 30 | Close | Thank you / Q&A |
+| 17 | Polish: the producer's chair | unchanged from v0.1 |
+| **18** | **Get the sound right at the amp / shift-left for bands** | **NEW in v0.2** |
+| 19 | When we recorded the album | unchanged |
+| 20 | We didn't ship the files and walk away | unchanged |
+| **21** | **Okefenokee — 3:24 (the break breathes, drums go Bonham)** | **NEW in v0.2** |
+| **22** | **The solo: a wave breaking on the rocks** | **NEW in v0.2** |
+| 23 | "I stayed for the mix" — thesis lived | unchanged |
+| 24 | What "session musician" thinking gets wrong about polish | unchanged |
+| 25 | Monday-morning move — "Stay for the mix" | unchanged |
 
-### Build verification
-- `npm run marp:html` — clean. Output is 122K, dracula renders, all 30 slides emit cleanly.
-- `npm run lint` — only flags pre-existing line-length issues in `CLAUDE.md` and `README.md`. No issues in slides.
+#### Tooling section, slide 27 filled
+| # | Slide | Status |
+|---|---|---|
+| 27 | **How we shipped the record / "like a git PR review"** | **filled in v0.2** (was placeholder) |
 
-## Speaker-fillable placeholders (intentionally left)
+#### Slide-22 closing line — important honesty correction
+Speaker pushed back on a draft line that overstated the mix's role: *"The only reason it made the record is I stayed for the mix."* Replaced with the honest version: *"I carried that wave from the songwriting room. Every take, every mix decision, was aimed at it."* The labor (many takes, one whole take with no edits possible, deliberate refinement in the mix room with the engineer-friend) lives in speaker notes — Option A from the brainstorm — to keep the slide photographable and let the speaker tell the labor story aloud.
 
-These need your voice; can't be invented:
+### Image plan — approved, NOT YET implemented in slides.md
 
-1. **Slide 20 — "The decision that changed the record."** Pick one specific mix moment from your album:
-   - A take you almost cut that became the album's best moment
-   - An EQ / compression call that changed a song's character
-   - A part where the engineer pushed back and you were right (or wrong, and learned)
-   - A disagreement between you and the engineer that produced the record
-   Speaker notes under the slide spell this out.
+This is the next implementation step on resume.
 
-2. **Slide 25 — "In the studio, we made one workflow call early."** Pick one process/workflow decision from the recording (process, not gear):
-   - Mixing roughs as you went
-   - File-naming convention
-   - Shared sessions over a specific tool
-   - Live tracking vs. fixing later
-   Speaker notes spell this out too.
+#### Format constraint (locked)
+- Each image-bearing slide = half-and-half vertical split
+- Image as background via Marp directive: `![bg left:50%]` or `![bg right:50%]`
+- L/R alternates across the deck (image-bearing slides only; lead slides skipped don't reset the alternation)
+- Starting side: **L** (slide 1 = left)
 
-3. **Slide 30 — your real LinkedIn / GitHub handles** (currently `[your handle]` placeholders).
+#### Source constraint (locked)
+- Pixabay AI-generated only
+- URL pattern: `https://pixabay.com/images/search/<term>/?content_type=ai`
 
-## Known follow-ups (deliberately deferred)
+#### Skip-list (locked) — 6 slides stay text-only
+- Slide 5 — thesis reveal ("Writers are bandmates, not session musicians")
+- Slide 7 — map of the talk (4 roles)
+- Slide 13 — Voice contrarian ("Voice is not the singer's job. It's a band sport.")
+- Slide 23 — "I stayed for the mix" thesis lived
+- Slide 28 — tactic table ("The workflow is the tooling")
+- Slide 31 — manifesto
 
-In rough priority order:
+#### Filename convention (locked)
+- Short, hyphenated, no slide numbers (so renumbering doesn't break names)
+- All `.jpg`
+- Saved to `assets/img/`
 
-1. **Speaker fills the two memoir placeholders.** Do this before any other polish — it's the thing only you can do.
-2. **Image sourcing.** `assets/img/` has only `.DS_Store`. Many slides work as text-on-color on dracula, but candidates for images: 8-piece-band silhouette, trio silhouette, org-chart shrink, Tower of Power photo, Cream lineup photo, mix-room/studio photo. Source from Wikimedia / Unsplash with permissive licenses.
-3. **First read-through.** `npm run marp:serve` (port 9999), walk through end to end at presenter pace. Time it. Polish memoir is the budget risk — if it runs long, the deck blows past 30 min.
-4. **Dracula style tweaks if needed.** Stock dracula may clash with the `.fa-twitter`/`.fa-linkedin` aqua/blue accents. Patch in the front-matter `style:` block if anything looks wrong.
-5. **Tower of Power audio cue.** Decide based on venue A/V whether to embed a 5-second clip or skip. If embedding, Marp's allowlist supports `<video>` (already in `.marprc.yml`).
-6. **Vale prose pass.** Once `vale-styles/` is populated locally (`vale sync`): `vale source/slides.md`. Style/grammar pass.
-7. **Possible slide cuts** if the talk runs long. First to cut: Memoir 3 (slide 20) if you can fold the moment into Memoir 2, or one of the Tooling intro slides (slide 24).
-8. **Cosmetic — rename `plans/your-recommendation-option-c-fluttering-teacup.md`** to something like `plans/rock-the-docs-design.md`. Auto-generated whimsical name; harmless.
+#### Approved 26-slide table
 
-## Open creative questions for next session
+Image-bearing slides, in deck order, with proposed search terms, filenames, and L/R side. Speaker explicitly noted *"we'll probably do a few iterations to get the images right"* — these terms are starting points, not final.
 
-None blocking, but worth deciding once you've walked the deck:
+| # | Slide | Pixabay search term | Filename | Side |
+|---|---|---|---|---|
+| 1 | Title — Rock the docs | `guitar+amp+stage` | `title-stage.jpg` | L |
+| 2 | 8-piece disco band | `disco+band+performing` | `disco-band.jpg` | R |
+| 3 | Power trio | `rock+trio+silhouette` | `power-trio.jpg` | L |
+| 4 | Same shape as your reorg | `org+chart+broken` | `reorg.jpg` | R |
+| 6 | About me | `guitarist+electric+guitar` | `about-me.jpg` | L |
+| 8 | Foundation: rhythm section | `drums+bass+guitar` | `rhythm-section.jpg` | R |
+| 9 | Tower of Power | `funk+horn+section` | `tower-of-power.jpg` | L |
+| 10 | Foundation contrarian | `broken+metronome` | `foundation-broken.jpg` | R |
+| 11 | Foundation Monday-morning | `sheet+music+neon` | `foundation-monday.jpg` | L |
+| 12 | Voice intro (guitar is voice) | `spotlight+microphone+empty` | `voice-intro.jpg` | R |
+| 14 | Cream | `vintage+rock+trio` | `cream-band.jpg` | L |
+| 15 | Voice contrarian list | `police+abstract+rules` | `voice-cop.jpg` | R |
+| 16 | Voice Monday-morning | `band+rehearsal+collaboration` | `voice-collab.jpg` | L |
+| 17 | Polish: producer's chair | `mixing+console+studio` | `mixing-board.jpg` | R |
+| 18 | Shift-left for bands | `vintage+guitar+amplifier+glow` | `amp-glow.jpg` | L |
+| 19 | When we recorded | `recording+studio+interior` | `studio-interior.jpg` | R |
+| 20 | We didn't ship and walk away | `two+people+mixing+audio` | `studio-collab.jpg` | L |
+| 21 | Okefenokee — 3:24 | `okefenokee+swamp+cinematic` | `okefenokee-swamp.jpg` | R |
+| 22 | The solo (wave) | `ocean+wave+rocks+dramatic` | `wave-rocks.jpg` | L |
+| 24 | Polish session-musician | `abandoned+notebook+writer` | `polish-disowned.jpg` | R |
+| 25 | Polish Monday-morning | `studio+headphones+mixing` | `polish-monday.jpg` | L |
+| 26 | Tooling: workflow as instrument | `guitar+pedalboard+rig` | `pedalboard.jpg` | R |
+| 27 | How we shipped the record | `recording+studio+workflow+screen` | `workflow.jpg` | L |
+| 29 | Tooling Monday-morning | `musician+with+rig` | `tooling-monday.jpg` | R |
+| 30 | Closer callback (trio) | `trio+performing+stage` | `trio-stage.jpg` | L |
+| 32 | Thank you | `concert+crowd+stage+end` | `thank-you.jpg` | R |
 
-- **Does the dracula theme actually feel rock?** Or does it feel "code editor" and we should revisit (custom style block on top, or a different theme like marpx/jobs/orwell).
-- **Does the manifesto land as 5 lines, or should we trim to 4 (Variant B from the brainstorm)?** Decide after presenting it once.
-- **Are 30 slides too many for 30 minutes?** Each slide ~1 min average, but the memoir slides sit longer and the cold-open slides go fast. May need to cut 2–3.
-- **Do the Monday-morning moves feel concrete enough, or too abstract?** The audience comes for stories; tactics need to feel like a colleague's nudge, not a checklist.
+#### Search terms flagged as creative leaps (likely first to revise on iteration)
+- Slide 4 (`org+chart+broken`) — metaphorical
+- Slide 15 (`police+abstract+rules`) — metaphorical
+- Slide 24 (`abandoned+notebook+writer`) — metaphorical
+
+#### Approved workflow on resume
+1. Edit `slides.md` to add the 26 `![bg left:50%]` / `![bg right:50%]` directives with proposed filenames. Build stays clean — Marp tolerates missing image files (slides render text-only until files appear).
+2. Speaker clicks Pixabay links at their pace, picks AI images, saves them to `assets/img/<filename>.jpg` per the table.
+3. As files appear, slides progressively show images. No round-trip needed per-image.
+4. Iteration pass: revise any search terms that don't yield good results; re-edit filenames if needed.
+
+## What's NOT done (deliberately, in priority order)
+
+1. **Image directives in `slides.md`** — approved, not yet edited. First task on resume.
+2. **Image sourcing itself** — speaker does this manually via Pixabay links.
+3. **Timed walkthrough** — `npm run marp:serve`, walk end-to-end at presenter pace. Polish memoir is the budget risk now that it's 9 slides instead of 7.
+4. **Real LinkedIn / GitHub handles on slide 32** (currently `[your handle]` placeholders).
+5. **Dracula style tweaks if needed** after seeing slides with images. The half-and-half layout may need padding/typography adjustment depending on image vibe.
+6. **Tower of Power audio cue** (slide 9) — venue-A/V dependent.
+7. **Vale prose pass** — `vale source/slides.md` once `vale-styles/` is populated locally.
+8. **Cosmetic — rename `plans/your-recommendation-option-c-fluttering-teacup.md`** to something like `plans/rock-the-docs-design.md`.
+9. **Possible slide cuts** if the talk runs long during walkthrough. First to cut: merge old Memoir 1 + 2 (slides 19+20), or one of the Tooling intro slides.
+
+## Known open creative questions (for future reflection)
+
+Not blocking. Worth deciding once speaker has walked the deck once:
+
+- Does the dracula theme actually feel rock once images are in? Or feel "code editor" / mismatched with the band imagery?
+- Does the manifesto land as 5 lines, or trim to 4 (Variant B from the brainstorm)?
+- Are 32 slides too many for 30 minutes? Average is now < 1 min/slide; memoir slides need to breathe. May need to cut 2–3.
+- Do the Monday-morning moves feel concrete enough, or too abstract?
 
 ## Resumption instructions for the next session
 
-1. Read `playground/work-recap-so-far.md` (session 1), `playground/work-recap-2.md` (session 2), then **this file** (session 3) for the full chain.
+1. Read `playground/work-recap-so-far.md` (session 1), `playground/work-recap-2.md` (session 2), then **this file** for the full chain.
 2. Read `plans/your-recommendation-option-c-fluttering-teacup.md` for the approved design plan.
-3. Read `source/slides.md` to see the implemented draft.
-4. Reload the `superpowers:brainstorming` skill *only* if reopening creative decisions (e.g., manifesto tone, theme). For polish/refinement work, no skill reload needed.
-5. Ask the user what they want to work on:
-   - Fill the two memoir placeholders (slides 20 and 25)?
-   - Walk the deck and time it?
-   - Image sourcing pass?
-   - Style / dracula tweaks?
-   - Slide cuts / pacing?
-6. **Do not re-ask anything in "Decisions locked" above** unless the user explicitly reopens it.
-7. Build commands to remember:
-   - `npm run marp:serve` — live preview on port 9999 (watches files)
-   - `npm run marp:html` / `marp:pdf` / `marp:pptx` — build output
-   - `npm run lint` — markdownlint
-   - `vale source/slides.md` — prose lint (after `vale sync`)
+3. Read `source/slides.md` to see the v0.2 implemented draft.
+4. **Skill reload:** only reload `superpowers:brainstorming` if reopening creative decisions (manifesto tone, theme, etc.). For polish/refinement work, no skill reload needed.
+5. Ask the speaker what to do first:
+   - **Most likely next:** add the 26 image directives to `slides.md` per the approved table above. ~5 min mechanical edit; greenlight already given.
+   - **After that:** speaker sources images via Pixabay AI links; we iterate on terms as needed.
+   - **Then:** timed walkthrough.
+6. **Do not re-ask any locked decision** unless the speaker explicitly reopens it.
 
-## Session-3 git state at the time of this recap
+## Build commands (cheat sheet)
 
-User committed everything before lunch break:
-- `.marprc.yml` (theme switch)
-- `.gitignore` (parent-dir exception fix)
-- `source/slides.md` (full rewrite)
-- `playground/progress-status.md`, `work-recap-so-far.md`, `work-recap-2.md` (now tracked)
-- `plans/your-recommendation-option-c-fluttering-teacup.md` (approved plan)
-- `output/slides.html` (rebuilt)
+```bash
+npm run marp:serve   # live preview, port 9999, watches files
+npm run marp:html    # build HTML to output/
+npm run marp:pdf     # build PDF (--allow-local-files already in script)
+npm run marp:pptx    # build PPTX
+npm run lint         # markdownlint *.md (only checks repo-root *.md, not source/)
+vale source/slides.md  # prose lint, after `vale sync` populates vale-styles/
+```
 
-This recap (`work-recap-3.md`) was written *after* that commit, so it'll be a separate addition.
+## Git state at the time of this recap
+
+```
+8313689 Slide deck v.0.2          ← current HEAD
+9d16f90 Add work recap            ← initial pre-lunch session-3 recap (now superseded by this file)
+750046b Complete slide deck v0.1
+1ef75e6 Update gitignore to keep playground files
+5cbaf4f Update CLAUDE.md
+e592aea add marp config
+f1f6ad8 Add CLAUDE.md and talk notes
+0eb272d update .gitignore
+de6d9ac exclude vale styles
+3b71fc4 add themes
+ff12128 add gitignore and initial slide draft
+```
+
+This recap (rewriting `work-recap-3.md`) is itself an uncommitted change. Speaker can `git add playground/work-recap-3.md && git commit` whenever convenient.

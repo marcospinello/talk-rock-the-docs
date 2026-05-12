@@ -53,6 +53,8 @@ cold open and may seed Q&A.
 
 # Rock the docs 🤘
 
+![bg left:50%](../assets/img/title-stage.jpg)
+
 ### Applying music theory and band dynamics to technical writing
 
 *Marco Spinello* — Senior technical writer, Booking.com
@@ -68,6 +70,8 @@ Welcome the room. The 🤘 is on purpose — sets the tone now, not later.
 
 ## I used to play in an 8-piece disco band.
 
+![bg right:50%](../assets/img/disco-band.jpg)
+
 <!--
 Lead with the personal hook. A beat of audience confusion is exactly right.
 Don't explain yet. Let it land.
@@ -78,6 +82,8 @@ Don't explain yet. Let it land.
 <!-- _class: lead -->
 
 ## Then it became a power trio.
+
+![bg left:50%](../assets/img/power-trio.jpg)
 
 <span class="quiet">Guitar. Bass. Drums.</span>
 
@@ -91,6 +97,8 @@ Mime the shrinking with your hands if you want.
 <!-- _class: lead -->
 
 ## Same shape as your last reorg.
+
+![bg right:50%](../assets/img/reorg.jpg)
 
 <!--
 Bridge. Recognition laugh expected.
@@ -113,6 +121,8 @@ Photographable slide #1 — people will start typing.
 ---
 
 ## About me
+
+![bg left:50%](../assets/img/about-me.jpg)
 
 - ✍️ **Marco Spinello** — Senior technical writer at Booking.com
 - 🎸 Guitar in an instrumental power trio
@@ -145,6 +155,8 @@ Quick orientation. Don't dwell.
 
 ## 1. Foundation
 
+![bg right:50%](../assets/img/rhythm-section.jpg)
+
 ### The rhythm section.
 
 <span class="quiet">Style guides. IA. Linters. The stuff nobody applauds.</span>
@@ -158,6 +170,8 @@ Boring on paper. Load-bearing in practice.
 ---
 
 ## Tower of Power
+
+![bg left:50%](../assets/img/tower-of-power.jpg)
 
 ### Rocco Prestia. David Garibaldi. Lock-tight.
 
@@ -177,6 +191,8 @@ same drift every time.
 
 ## What "session musician" thinking gets wrong
 
+![bg right:50%](../assets/img/foundation-broken.jpg)
+
 > "Style guides are boring."
 > "IA is infrastructure."
 > "Linters are nags."
@@ -195,6 +211,8 @@ If your foundation is broken, no one hears the song.
 
 ## Monday-morning move
 
+![bg left:50%](../assets/img/foundation-monday.jpg)
+
 ### If you have no style guide, your style guide is whoever shouts loudest in the PR.
 
 <span class="accent">**Lock the foundation, then play.**</span>
@@ -210,6 +228,8 @@ Manifesto preview — "Lock the foundation, then play." It lands again at the cl
 ---
 
 ## 2. Voice
+
+![bg right:50%](../assets/img/voice-intro.jpg)
 
 ### In a trio, there's no singer.
 
@@ -246,6 +266,8 @@ We're going to challenge that.
 
 ## Cream
 
+![bg left:50%](../assets/img/cream-band.jpg)
+
 ### Three virtuosos. No frontperson.
 
 - Jack Bruce — bass, vocals
@@ -266,6 +288,8 @@ Voice isn't who holds the microphone. It's what the band agrees on.
 
 ## What "session musician" thinking gets wrong about voice
 
+![bg right:50%](../assets/img/voice-cop.jpg)
+
 - Writers as voice-cops policing PRs
 - The "tone of voice" doc nobody reads
 - Voice as a deliverable instead of a property
@@ -285,6 +309,8 @@ If only the writer cares about voice, you don't have a voice — you have a bran
 
 ## Monday-morning move
 
+![bg left:50%](../assets/img/voice-collab.jpg)
+
 ### Stop being the voice cop. Start running voice as a band activity.
 
 <span class="accent">**Find the voice with the band, not for it.**</span>
@@ -298,6 +324,8 @@ Voice gets fixed when the band hears itself.
 ---
 
 ## 3. Polish
+
+![bg right:50%](../assets/img/mixing-board.jpg)
 
 ### The producer's chair.
 
@@ -314,6 +342,8 @@ Slow down here. The next ~9 minutes are memoir.
 ---
 
 ## Get the sound right at the amp.
+
+![bg left:50%](../assets/img/amp-glow.jpg)
 
 If the source is solid, mixing becomes aesthetic — chiseling, not repair.
 
@@ -337,6 +367,8 @@ was art to make, not damage to undo.
 
 ## When we recorded the album
 
+![bg right:50%](../assets/img/studio-interior.jpg)
+
 We tracked over a few weekends in a friend's studio.
 
 The record we wanted didn't exist yet — it lived between the takes, in the edits, in the mix.
@@ -349,6 +381,8 @@ the audience can picture. Keep it short and concrete; people lean in for stories
 ---
 
 ## We didn't ship the files and walk away.
+
+![bg left:50%](../assets/img/studio-collab.jpg)
 
 I sat next to the engineer for the mix. He's also a friend.
 
@@ -364,6 +398,8 @@ I wasn't there to "approve." I was there because the mix was the work.
 ---
 
 ## Okefenokee — 3:24
+
+![bg right:50%](../assets/img/okefenokee-swamp.jpg)
 
 The song slows down. Opens up. Creates space to breathe.
 
@@ -387,6 +423,8 @@ ride/crash — the Bonham/Zeppelin signature feel.)
 ---
 
 ## The solo
+
+![bg left:50%](../assets/img/wave-rocks.jpg)
 
 ### A wave breaking on the rocks.
 
@@ -434,6 +472,8 @@ the audience can choose to do, or choose not to.
 
 ## What "session musician" thinking gets wrong about polish
 
+![bg right:50%](../assets/img/polish-disowned.jpg)
+
 - Writers handing off drafts and disappearing
 - Review as a checkbox
 - "I delivered the doc" — and then?
@@ -452,6 +492,8 @@ That's session-musician work. It's transactional. The mix never happens.
 
 ## Monday-morning move
 
+![bg left:50%](../assets/img/polish-monday.jpg)
+
 ### Don't close the ticket on draft submission.
 
 <span class="quiet">Stay for review. Stay for the metrics. Stay for the rewrite when something breaks.</span>
@@ -468,6 +510,8 @@ The mix isn't done when you ship — you can come back.
 
 ## 4. Tooling
 
+![bg right:50%](../assets/img/pedalboard.jpg)
+
 ### The workflow is the instrument.
 
 <span class="quiet">Roadies. Venues. The rig. What you automate becomes what you can sound like.</span>
@@ -481,6 +525,8 @@ kinds of moves you can even attempt.
 ---
 
 ## How we shipped the record
+
+![bg left:50%](../assets/img/workflow.jpg)
 
 Live tracking. Reversible. Rough mixes as we went.
 
@@ -528,6 +574,8 @@ doesn't support review-as-you-write, you don't have review.
 
 ## Monday-morning move
 
+![bg right:50%](../assets/img/tooling-monday.jpg)
+
 ### Audit your writer workflow this week. What would a bandmate change?
 
 <span class="accent">**Choose your workflow like an instrument.**</span>
@@ -545,6 +593,8 @@ A bandmate optimizes the rig because the rig shapes the music.
 <!-- _class: lead -->
 
 ## The 8-piece became a trio.
+
+![bg left:50%](../assets/img/trio-stage.jpg)
 
 ### The trio survived because everyone was a bandmate.
 
@@ -588,6 +638,8 @@ If only one slide makes it onto Twitter, this is the one.
 <!-- _class: lead -->
 
 ## Thank you 🙏
+
+![bg right:50%](../assets/img/thank-you.jpg)
 
 <span class="quiet">Questions, arguments, band recommendations — all welcome.</span>
 
