@@ -12,6 +12,10 @@ dist
 
 # Playground
 playground/
+# ...except the recap/progress files, which we want tracked
+!playground/progress-status.md
+!playground/work-recap-so-far.md
+!playground/work-recap-2.md
 
 # Vale packages (managed by `vale sync` via .vale.ini Packages)
 .vale.ini
