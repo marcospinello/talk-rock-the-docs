@@ -2,7 +2,7 @@ allowLocalFiles: true
 inputDir: ./source
 output: ./output
 themeSet: ./assets/themes
-theme: socrates
+theme: dracula
 template: bespoke
 size: 16:9
 lang: en

@@ -11,7 +11,7 @@ dist
 *.db
 
 # Playground
-playground/
+playground/*
 # ...except the recap/progress files, which we want tracked
 !playground/progress-status.md
 !playground/work-recap-so-far.md
