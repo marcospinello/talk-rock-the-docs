@@ -413,7 +413,7 @@ We tracked over two weekends in a friend's studio.
 
 The record we wanted didn't exist yet.
 
-It was scattered across takes, edits, and the mix.
+It lived scattered across takes, edits, and the mix.
 
 <!--
 Set the scene with your actual story. Date, place, mood — fill in the specifics
@@ -592,7 +592,7 @@ kinds of moves you can even attempt.
 - Rough mixes as we went: fast iteration
 - Two raw mixes: check points
 
-<span class="accent">**Review comments, approval: like a git PR review**</span>
+<span class="accent">**Review comments, approval: git PR review**</span>
 
 <!--
 The whole recording ran like a well-managed repo:
