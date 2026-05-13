@@ -1,6 +1,6 @@
 # Rock the docs — work recap (session 3, full day)
 
-Resumes from `/playground/work-recap-so-far.md` (session 1) and `/playground/work-recap-2.md` (session 2). Read both first for the full chain of brainstorming reasoning. **This file supersedes the earlier morning-only version of `work-recap-3.md` (committed in `9d16f90`); the old version remains in git history.**
+Resumes from `/playground/work-recap-1.md` (session 1) and `/playground/work-recap-2.md` (session 2). Read both first for the full chain of brainstorming reasoning. **This file supersedes the earlier morning-only version of `work-recap-3.md` (committed in `9d16f90`); the old version remains in git history.**
 
 This is the comprehensive session-3 recap covering both morning (brainstorming → v0.1 implementation) and afternoon (memoir fills → v0.2 → image plan approved).
 
@@ -195,7 +195,7 @@ Not blocking. Worth deciding once speaker has walked the deck once:
 
 ## Resumption instructions for the next session
 
-1. Read `playground/work-recap-so-far.md` (session 1), `playground/work-recap-2.md` (session 2), then **this file** for the full chain.
+1. Read `playground/work-recap-1.md` (session 1), `playground/work-recap-2.md` (session 2), then **this file** for the full chain.
 2. Read `plans/your-recommendation-option-c-fluttering-teacup.md` for the approved design plan.
 3. Read `source/slides.md` to see the v0.2 implemented draft.
 4. **Skill reload:** only reload `superpowers:brainstorming` if reopening creative decisions (manifesto tone, theme, etc.). For polish/refinement work, no skill reload needed.

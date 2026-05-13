@@ -1,7 +1,7 @@
 ---
 marp: true
 author: Marco Spinello
-title: Rock the docs 🤘
+title: 🔊 Rock the docs 🤘😎
 style: |
     .fa-twitter, .fa-x-twitter { color: #8be9fd; }
     .fa-linkedin { color: #8be9fd; }
@@ -34,7 +34,7 @@ style: |
 
 <!--
 ========================================================================
-Rock the docs 🤘  —  Marco Spinello
+🔊 Rock the docs 🤘😎  —  Marco Spinello
 
 A 30-minute conference talk for fellow tech writers.
 Thesis: writers are bandmates, not session musicians.
@@ -55,14 +55,14 @@ cold open and may seed Q&A.
 
 ![bg left:50%](../assets/img/title-stage.jpg)
 
-### Applying music theory and band dynamics to technical writing
+### Bandmates are just loud tech writers
 
 *Marco Spinello*
 
 Senior technical writer at Booking.com
 
 <!--
-Welcome the room. The 🤘 is on purpose — sets the tone now, not later.
+Welcome the room. The 🤘😎 is on purpose — sets the tone now, not later.
 ~30 seconds on the title slide. Don't introduce yourself yet — slide 6.
 -->
 
@@ -70,7 +70,9 @@ Welcome the room. The 🤘 is on purpose — sets the tone now, not later.
 
 <!-- _class: lead -->
 
-## I used to play in an 8-piece disco band.
+## I used to play in an 8-piece disco band
+
+## 💃 🪩 🕺
 
 ![bg right:50%](../assets/img/disco-band.jpg)
 
@@ -83,11 +85,11 @@ Don't explain yet. Let it land.
 
 <!-- _class: lead -->
 
-## Then it became a power trio.
+## Then it became a power trio
 
 ![bg left:50%](../assets/img/power-trio.jpg)
 
-- Guitar 🎸
+- Guitar 🎸 🎶
 - Bass 🎸 ⬇️
 - Drums 🥁
 
@@ -100,9 +102,9 @@ Mime the shrinking with your hands if you want.
 
 <!-- _class: lead -->
 
-## Same shape as your last reorg.
+## Same shape as your last reorg: 🫠
 
-![bg right:50%](../assets/img/reorg.jpg)
+![bg right:50%](../assets/img/reorg.png)
 
 <!--
 Bridge. Recognition laugh expected.
@@ -116,7 +118,7 @@ shrinking, pivoting, deciding who's load-bearing.
 
 <div class="huge accent">Writers are bandmates,<br />not session musicians.</div>
 
-<div class="huge accent">🤲 + 🙌 = 💪</div>
+<div class="huge accent">🤲 + 🙌 = 💪 ✨</div>
 
 <!--
 This is the talk. Read it slowly. Stop. Let it sit.
@@ -132,8 +134,9 @@ Photographable slide #1 — people will start typing.
 
 - ✍️ Senior technical writer at Booking.com
 - 🎸 Guitar player in an instrumental power trio
-- 🎚️ Co-mixed and co-mastered our album with the recording engineer
-- 🐾 No CS background, curious as a cat.
+- 🎚️ Co-mixed and co-mastered our album
+- 🤷 No CS background
+- 🐾 curious as a cat.
 
 <!--
 ~30 seconds. The detail that matters is the third bullet:
@@ -146,11 +149,11 @@ that's having been in the rooms where the work happens.
 ## Where we're going
 
 1. **Foundation** - 🥁 the rhythm section
-2. **Voice** -  🎸 🥁 🎙️ what the band sounds like
+2. **Voice** -  🎸 🥁 🎶 what the band sounds like
 3. **Polish** - 🎚️ 🎛️ the producer's chair
-4. **Tooling** - 🧰 the workflow as instrument
+4. **Tooling** - 🧰 🔄 the workflow as instrument
 
-<span class="quiet">Four roles. One thesis. Thirty minutes.</span>
+<span class="quiet">Four roles. One thesis. Thirty(ish) minutes.</span>
 
 <!--
 Quick orientation. Don't dwell.
@@ -163,9 +166,9 @@ Quick orientation. Don't dwell.
 
 ![bg right:50%](../assets/img/rhythm-section.png)
 
-### The rhythm section.
+### The rhythm section
 
-<span class="quiet">Style guides. IA. Linters. The stuff nobody applauds.</span>
+<span class="quiet">Style guides, IA, linters. The stuff nobody applauds.</span>
 
 <!--
 Set up the section. The rhythm section is what the band stands on.
@@ -182,8 +185,7 @@ Boring on paper. Load-bearing in practice.
 <span class="quiet">Three players. One pulse. One building.</span>
 
 <!--
-If the venue allows audio, play 5 seconds of "What Is Hip" — the canonical
-TOP rhythm-section moment. Otherwise just describe it.
+If the venue allows audio, play 30 seconds of "Empire State Building". Otherwise just describe it.
 
 The point: the rhythm section isn't multiple people doing similar jobs.
 It's a single system, locked together. That's information architecture.
@@ -194,22 +196,22 @@ same drift every time.
 ---
 
 <div>
-<iframe
-  style="border: 0; width: 400px; height: 406px;"
-  src="https://bandcamp.com/EmbeddedPlayer/album=1522315087/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/"
-  seamless
->
-  <a href="https://spinello-band.bandcamp.com/album/be-style">Be-Style by Spinello</a>
-</iframe>
+  <iframe
+    style="border: 0; width: 400px; height: 406px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=1522315087/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/"
+    seamless
+  >
+    <a href="https://spinello-band.bandcamp.com/album/be-style">Be-Style by Spinello</a>
+  </iframe>
 </div>
 
 <div>
-<span class="quiet">Empire State Building: reggae vibe, but tight.</span>
+  <span class="quiet">Empire State Building: reggae vibe, but tight.</span>
 </div>
 
 ---
 
-## What "session musician" thinking gets wrong
+## What "session musician" mindset misinterprets
 
 ![bg right:50%](../assets/img/foundation-broken.jpg)
 
@@ -217,7 +219,7 @@ same drift every time.
 > *IA is infrastructure.* \
 > *Linters are nags.*
 
-### All three are the foundation everyone plays on.
+### All three are the foundation everyone plays on
 
 <!--
 Push back gently. The session-musician mindset treats foundation as
@@ -229,13 +231,15 @@ If your foundation is broken, no one hears the song.
 
 ---
 
-## If you have no style guide,
+## If you have no style guide
 
 ![bg left:50%](../assets/img/foundation-monday.png)
 
-### your style guide is whoever shouts loudest in the PR.
+Your style guide is whoever shouts loudest in the PR.
 
-<span class="accent">**Lock the foundation, then play.**</span>
+## 🗣️ 🔊
+
+<span class="accent">**Lock the foundation, then play**</span>
 
 <!--
 Concrete: pick one foundation thing your team has been deferring
@@ -251,7 +255,7 @@ Manifesto preview — "Lock the foundation, then play." It lands again at the cl
 
 ![bg right:50%](../assets/img/voice-intro.jpg)
 
-### In a power trio, there's no singer.
+### In a power trio, there's no singer
 
 <span class="quiet">The guitar 🎸 is the voice. 🎙️</span>
 
@@ -268,9 +272,9 @@ Same in docs: voice isn't owned by one person with "writer" in their title.
 
 <!-- _class: lead -->
 
-<div class="huge">Voice is not the singer's job.</div>
+<div class="huge">Voice isn't the singer's job</div>
 
-### It's a band sport.
+## It's a band sport 🤝 🙌
 
 <!--
 Stop. Let it land.
@@ -288,7 +292,7 @@ We're going to challenge that.
 
 ![bg left:50%](../assets/img/cream-band.png)
 
-Three voices, no frontperson.
+<span class="quiet">Three voices, no frontperson</span>
 
 - Bass: groove and melody
 - Guitar: harmony and melody
@@ -304,27 +308,27 @@ Main riff: bass groove + guitar harmony + drum accents = voice
 ---
 
 <div>
-<iframe
-  style="border: 0; width: 400px; height: 406px;"
-  src="https://bandcamp.com/EmbeddedPlayer/album=1522315087/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/"
-  seamless
->
-  <a href="https://spinello-band.bandcamp.com/album/be-style">Be-Style by Spinello</a>
-</iframe>
+  <iframe
+    style="border: 0; width: 400px; height: 406px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=1522315087/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/"
+    seamless
+  >
+    <a href="https://spinello-band.bandcamp.com/album/be-style">Be-Style by Spinello</a>
+  </iframe>
 </div>
 
 <div>
-<span class="quiet">First Born: three layers, one voice.</span>
+  <span class="quiet">First Born: three layers, one voice, one groove.</span>
 </div>
 
 ---
 
-## What "session musician" thinking gets wrong about voice
+## What "session musician" mindset misinterprets about voice
 
 ![bg right:50%](../assets/img/voice-cop.jpg)
 
 > *Writers as voice-cops policing PRs* \
-> *The "tone of voice" doc nobody reads* \
+> *Nobody reads the "tone of voice" doc* \
 > *Voice as a deliverable instead of a property*
 
 <!--
@@ -342,9 +346,9 @@ If only the writer cares about voice, you don't have a voice — you have a bran
 
 ![bg left:50%](../assets/img/voice-collab.jpg)
 
-### Run the voice as a band activity.
+### Run the voice as a band activity
 
-<span class="accent">**Find the voice with the band, not for the band.**</span>
+<span class="accent">**Find the voice *with* the band, not *for* the band.**</span>
 
 <!--
 Concrete: invite engineers/PMs/designers to a 30-minute "voice listening" session.
@@ -358,7 +362,9 @@ Voice gets fixed when the band hears itself.
 
 ![bg right:50%](../assets/img/mixing-board.jpg)
 
-### The producer's chair.
+### The producer's chair
+
+### 🎛️ 🎚️ 🎧
 
 <span class="quiet">Mix, master, and shape the record.</span>
 
@@ -372,13 +378,15 @@ Slow down here. The next ~9 minutes are memoir.
 
 ---
 
-## Get the sound right at the amp.
+## Get the sound right at the amp
 
 ![bg left:50%](../assets/img/amp-glow.jpg)
 
-If the source is solid, mixing becomes aesthetic — chiseling, not repair.
+If the source is solid, mixing becomes aesthetic.
 
-### That's shift-left for bands.
+Chiseling 🗿, not repair 🩹.
+
+### That's shift-left for bands
 
 <!--
 The whole band did this work before we hit record. Solid amp tones, tight rhythm,
@@ -404,7 +412,7 @@ We tracked over two weekends in a friend's studio.
 
 The record we wanted didn't exist yet.
 
-It lived between the takes, in the edits, and in the mix.
+It was scattered across takes, edits, and the mix.
 
 <!--
 Set the scene with your actual story. Date, place, mood — fill in the specifics
@@ -413,11 +421,13 @@ the audience can picture. Keep it short and concrete; people lean in for stories
 
 ---
 
-## Don't ship the files and walk away.
+## Don't ship the files and walk away
 
 ![bg left:50%](../assets/img/studio-collab.jpg)
 
-I sat next to the engineer for the mix. He's also a friend.
+I sat next to the engineer for the mix.
+
+He's also a friend.
 
 <span class="quiet">Many opinions. One pair of speakers. Lots of back and forth.</span>
 
@@ -430,15 +440,15 @@ I wasn't there to "approve." I was there because the mix was the work.
 
 ---
 
-## Okefenokee — 3:24
+## Okefenokee (3'24")
 
 ![bg right:50%](../assets/img/okefenokee-swamp.png)
 
 The song slows down, opens up, and creates space to breathe.
 
-- Bass and rhythm guitar tight — minimal effects
+- Tight bass and rhythm guitar — minimal effects
 - Drums go Bonham — deep kick, deep toms, ethereal cymbals
-- The break builds up to the solo
+- The break leads into the solo
 
 <!--
 Bring the audience into the song. If A/V allows, play 10–15 seconds of the break.
@@ -455,18 +465,16 @@ ride/crash — the Bonham/Zeppelin signature feel.)
 
 ---
 
-## The solo
+## A wave breaking on the rocks
 
 ![bg left:50%](../assets/img/wave-rocks.jpg)
-
-### A wave breaking on the rocks.
 
 - Bridge humbucker for fatness
 - EQ for warmth
 - Reverb for thickness
 - Delay for depth.
 
-Take recording and mix decisions pointed to it.
+(Many) takes and mix decisions deliberately guide to the solo.
 
 <!--
 The wave wasn't an idea I came up with in the studio. It was the image I'd been
@@ -491,26 +499,26 @@ the rest comes together. I refused to hope. I stayed.
 ---
 
 <div>
-<iframe
-  style="border: 0; width: 400px; height: 406px;"
-  src="https://bandcamp.com/EmbeddedPlayer/album=1522315087/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/"
-  seamless
->
-  <a href="https://spinello-band.bandcamp.com/album/be-style">Be-Style by Spinello</a>
-</iframe>
+  <iframe
+    style="border: 0; width: 400px; height: 406px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=1522315087/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/"
+    seamless
+  >
+    <a href="https://spinello-band.bandcamp.com/album/be-style">Be-Style by Spinello</a>
+  </iframe>
 </div>
 
 <div>
-<span class="quiet">Okefenokee, 3'24": open break leads to guitar solo.</span>
+  <span class="quiet">Okefenokee, 3'24": open break leads to guitar solo.</span>
 </div>
 
 ---
 
 <!-- _class: lead -->
 
-<div class="huge">Don't ship the file<br />and walk away.</div>
+<div class="huge">Don't ship the file<br />and walk away</div>
 
-### Stay for the mix.
+## Stay for the mix
 
 <!--
 This is the spine of the talk. Read slowly.
@@ -521,13 +529,13 @@ the audience can choose to do, or choose not to.
 
 ---
 
-## What "session musician" thinking gets wrong about polish
+## What "session musician" mindset misinterprets about polish
 
 ![bg right:50%](../assets/img/polish-disowned.jpg)
 
-> *Writers handing off drafts and disappearing* \
-> *Review as a checkbox* \
-> *"I delivered the doc" — and then?*
+> *Writers hand off drafts and disappear* \
+> *Review is a checkbox* \
+> *"Doc is delivered" — and then?*
 
 <!--
 You see this all the time: writer ships draft → someone "reviews" → it lands →
@@ -539,13 +547,13 @@ That's session-musician work. It's transactional. The mix never happens.
 
 ---
 
-## Don't close the ticket on doc submission.
+## Don't close the ticket on doc submission
 
 ![bg left:50%](../assets/img/polish-monday.jpg)
 
 <span class="quiet">Stay for the review, the metrics, and the rewrite when something breaks.</span>
 
-<span class="accent">**Stay for the mix.**</span>
+<span class="accent">**Stay for the mix**</span>
 
 <!--
 Concrete: pick your most-read doc from the last quarter. Re-read it.
@@ -563,7 +571,7 @@ https://pixabay.com/images/search/stay%20improve/?content_type=ai
 
 ![bg right:50%](../assets/img/pedalboard.jpg)
 
-### The workflow is the instrument.
+### The workflow is the instrument
 
 <span class="quiet">The rig. What you automate becomes what you can sound like.</span>
 
@@ -579,11 +587,11 @@ kinds of moves you can even attempt.
 
 ![bg left:50%](../assets/img/workflow.jpg)
 
-- Live tracking with click. Reversible.
-- Rough mixes as we went.
-- Two raw mixes
+- Live tracking with click: fault tolerant.
+- Rough mixes as we went: fast iteration
+- Two raw mixes: check points
 
-### Review comments, approval — like a git PR review.
+<span class="accent">**Review comments, approval: like a git PR review**</span>
 
 <!--
 The whole recording ran like a well-managed repo:
@@ -605,16 +613,16 @@ you already know. The next slide makes them concrete.
 
 ---
 
-## The workflow is the tooling.
+## The workflow is the tooling
 
-What you automate decides what you can sound like.
+What you automate influences what you sound like.
 
-| You automate | You can sound like |
-|---|---|
+| You automate | You sound like |
+|:---|:---|
 | Lint-on-commit | A band that never plays out of tune |
-| Docs-as-code | A band that ships every time they rehearse |
 | CI for content | A band that hears themselves before the audience does |
 | Templated reviews | A band whose feedback loop is shorter than their release cycle |
+| Docs-as-code | A band that ships every time they rehearse |
 
 <!--
 Make the tactic concrete with examples the audience already half-believes.
@@ -631,7 +639,7 @@ doesn't support review-as-you-write, you don't have review.
 
 ### What would a bandmate change?
 
-<span class="accent">**Choose your workflow like an instrument.**</span>
+<span class="accent">**Choose your workflow like an instrument**</span>
 
 <!--
 Concrete: spend 60 minutes mapping the writer workflow. Where does work get
@@ -645,11 +653,11 @@ A bandmate optimizes the rig because the rig shapes the music.
 
 <!-- _class: lead -->
 
-## The 8-piece became a trio.
+## The 8-piece became a trio
 
 ![bg left:50%](../assets/img/trio-stage.jpg)
 
-### The trio worked out because everyone was a bandmate.
+### It worked out because everyone was a bandmate
 
 <span class="quiet">Nobody was a session musician.</span>
 
@@ -670,7 +678,7 @@ That's the docs team I want to be on.
 
 Lock the foundation, then play.
 
-Find the voice with the band, not for the band.
+Find the voice *with* the band, not *for* the band.
 
 Stay for the mix.
 
@@ -694,7 +702,7 @@ If only one slide makes it onto Twitter, this is the one.
 
 ![bg right:50%](../assets/img/thank-you.jpg)
 
-<span class="quiet">Questions, arguments, band recommendations — all welcome.</span>
+<span class="quiet">Questions, arguments, band recommendations — all welcome. ✨</span>
 
 **Marco Spinello**
 

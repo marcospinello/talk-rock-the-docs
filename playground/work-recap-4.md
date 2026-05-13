@@ -1,6 +1,6 @@
 # Rock the docs — work recap (session 4, closing)
 
-Resumes from `/playground/work-recap-so-far.md` (session 1), `/playground/work-recap-2.md` (session 2), and `/playground/work-recap-3.md` (session 3 — full day, ending at v0.2 + approved-but-not-yet-implemented image plan). This file captures everything since session 3 closed: overnight v1.0 finalization, today's polish + Vale tuning, and confirmed talk timing.
+Resumes from `/playground/work-recap-1.md` (session 1), `/playground/work-recap-2.md` (session 2), and `/playground/work-recap-3.md` (session 3 — full day, ending at v0.2 + approved-but-not-yet-implemented image plan). This file captures everything since session 3 closed: overnight v1.0 finalization, today's polish + Vale tuning, and confirmed talk timing.
 
 ## Status (right now)
 
@@ -116,7 +116,7 @@ The deck is essentially done. Resume only when:
 - Picking up one of the cosmetic loose ends above
 
 **On resume:**
-1. Read all four recap files in order: `work-recap-so-far.md`, `work-recap-2.md`, `work-recap-3.md`, this file.
+1. Read all four recap files in order: `work-recap-1.md`, `work-recap-2.md`, `work-recap-3.md`, this file.
 2. Read `plans/your-recommendation-option-c-fluttering-teacup.md` for the original design plan.
 3. Read `source/slides.md` to see the current state of the deck.
 4. **Do not re-ask any locked decision** unless the user explicitly reopens it.

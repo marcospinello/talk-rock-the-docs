@@ -1,6 +1,6 @@
 # Rock the docs — brainstorming recap (session 2)
 
-Resumes from `/playground/work-recap-so-far.md`. Read that first for the prior chain of reasoning, then this file for everything decided since.
+Resumes from `/playground/work-recap-1.md`. Read that first for the prior chain of reasoning, then this file for everything decided since.
 
 ## Status
 
@@ -75,7 +75,7 @@ In rough order:
 
 ## Resumption instructions for the next session
 
-1. Read `/playground/work-recap-so-far.md` then this file.
+1. Read `/playground/work-recap-1.md` then this file.
 2. Re-invoke the `superpowers:brainstorming` skill (the prior session had it loaded — start each new session by reloading it).
 3. Re-ask the user the **texture rotation** question (Option A vs B vs custom). Surface the queued-but-unsent answer so they can confirm or change.
 4. Do not re-ask anything in "Locked decisions."
