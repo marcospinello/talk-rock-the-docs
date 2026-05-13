@@ -58,9 +58,9 @@ The talk delivers four sections, each built on the same shape: **band story → 
 The 8-piece-to-trio shrinkage is a real career arc, not a metaphor I plucked from the air.
 The talk uses three tracks from my band's album *Be-Style* as case studies:
 
-- *Empire State Building* anchors the foundation section: three players, one pulse, one building.
-— *First Born* anchors the voice section, where a power trio's three instruments do the work of a singer.
-— *Okefenokee* anchors the polish section, with a focus on the importance of telling a compelling story through the docs.
+- [Empire State Building](https://spinello-band.bandcamp.com/track/empire-state-building-3) anchors the foundation section: three players, one pulse, one building
+- [First Born](https://spinello-band.bandcamp.com/track/first-born-2) anchors the voice section, where a power trio's three instruments do the work of a singer.
+- [Okefenokee (3'24")](https://spinello-band.bandcamp.com/track/okefenokee-2) anchors the polish section, with a focus on the importance of telling a compelling story through the docs.
 
 The audio is optional (~60 to ~90 seconds per cue, where the venue permits).
 The talk works without sound.
@@ -73,14 +73,10 @@ The talk argues the docs equivalent is staying in the room past "docs shipped," 
 
 ## Key takeaways
 
-- *Foundation:* pick one deferred foundation thing — style guide, IA review, linter setup — and put it on next week's calendar.
-  Just one thing.
-  Then do it.
-- *Voice:* stop treating voice as the writer's deliverable.
-  Run a voice review with a developer and a support engineer in the room.
+- *Foundation:* pick one deferred foundation thing — style guide, IA review, linter setup — and put it on next week's calendar. Just one thing. Then do it.
+- *Voice:* stop treating voice as the writer's deliverable. Run a voice review with a developer and a support engineer in the room.
 - *Polish:* name and refuse the "doc is delivered, and then?" handoff pattern.
-- *Tooling:* ask of every CI step, "what does this let our docs sound like?"
-  If you can't answer, it's probably the wrong step.
+- *Tooling:* ask of every CI step, "what does this let our docs sound like?" If you can't answer, it's probably the wrong step.
 
 ## Anything else
 
