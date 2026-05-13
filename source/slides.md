@@ -338,11 +338,11 @@ If only the writer cares about voice, you don't have a voice — you have a bran
 
 ---
 
-## Stop being the voice cop
+## Don't be the voice cop
 
 ![bg left:50%](../assets/img/voice-collab.jpg)
 
-### Start running voice as a band activity.
+### Run voice as a band activity.
 
 <span class="accent">**Find the voice with the band, not for the band.**</span>
 
@@ -360,7 +360,7 @@ Voice gets fixed when the band hears itself.
 
 ### The producer's chair.
 
-<span class="quiet">Mixing. Mastering. Shaping the record.</span>
+<span class="quiet">Mix, master, and shape the record.</span>
 
 <!--
 This is the section that matters most to me personally. Polish — the
@@ -413,7 +413,7 @@ the audience can picture. Keep it short and concrete; people lean in for stories
 
 ---
 
-## We didn't ship the files and walk away.
+## Don't ship the files and walk away.
 
 ![bg left:50%](../assets/img/studio-collab.jpg)
 
@@ -461,9 +461,12 @@ ride/crash — the Bonham/Zeppelin signature feel.)
 
 ### A wave breaking on the rocks.
 
-Bridge humbucker for fatness. EQ for warmth. Reverb for thickness. Delay for depth.
+- Bridge humbucker for fatness
+- EQ for warmth
+- Reverb for thickness
+- Delay for depth.
 
-Recording the take and the mix decisions were both aimed at it.
+Take recording and mix decisions pointed to it.
 
 <!--
 The wave wasn't an idea I came up with in the studio. It was the image I'd been
@@ -560,9 +563,11 @@ kinds of moves you can even attempt.
 
 ![bg left:50%](../assets/img/workflow.jpg)
 
-Live tracking. With click. Reversible. Rough mixes as we went.
+- Live tracking with click. Reversible.
+- Rough mixes as we went.
+- Two raw mixes
 
-### Two raw mixes, review comments, final — like a git PR review.
+### Review comments, approval — like a git PR review.
 
 <!--
 The whole recording ran like a well-managed repo:
@@ -677,7 +682,8 @@ If only one slide makes it onto Twitter, this is the one.
 
 **Marco Spinello**
 
-<i class="fa-brands fa-linkedin"></i> [your handle] · <i class="fa-brands fa-github"></i> [your handle]
+<i class="fa-brands fa-linkedin"></i> [marco-spinello](https://www.linkedin.com/in/marco-spinello/) \
+<i class="fa-brands fa-github"></i> [marcospinello](https://github.com/marcospinello)
 
 <!--
 Q&A. Stay loose. The talk is the talk; the conversation after is where you find
