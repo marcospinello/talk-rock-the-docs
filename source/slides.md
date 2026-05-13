@@ -342,7 +342,7 @@ If only the writer cares about voice, you don't have a voice — you have a bran
 
 ![bg left:50%](../assets/img/voice-collab.jpg)
 
-### Run voice as a band activity.
+### Run the voice as a band activity.
 
 <span class="accent">**Find the voice with the band, not for the band.**</span>
 
