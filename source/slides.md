@@ -5,6 +5,7 @@ title: 🔊 Rock the docs 🤘😎
 style: |
     .fa-twitter, .fa-x-twitter { color: #8be9fd; }
     .fa-linkedin { color: #8be9fd; }
+    .fa-bandcamp { color: #8be9fd; }
     .fa-github { color: #f8f8f2; }
     @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css';
     .big {
@@ -706,8 +707,11 @@ If only one slide makes it onto Twitter, this is the one.
 
 **Marco Spinello**
 
-<i class="fa-brands fa-linkedin"></i> [marco-spinello](https://www.linkedin.com/in/marco-spinello/) \
+<i class="fa-brands fa-linkedin"></i> [marco-spinello](https://www.linkedin.com/in/marco-spinello/)
+
 <i class="fa-brands fa-github"></i> [marcospinello](https://github.com/marcospinello)
+
+<i class="fa-brands fa-bandcamp"></i> [Be-style EP](https://spinello-band.bandcamp.com/album/be-style) 🔊 🎶
 
 <!--
 Q&A. Stay loose. The talk is the talk; the conversation after is where you find
