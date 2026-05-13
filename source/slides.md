@@ -150,7 +150,7 @@ that's having been in the rooms where the work happens.
 3. **Polish** - 🎚️ 🎛️ the producer's chair
 4. **Tooling** - 🧰 the workflow as instrument
 
-<span class="quiet">Three bandmates. One thesis. Thirty minutes.</span>
+<span class="quiet">Four roles. One thesis. Thirty minutes.</span>
 
 <!--
 Quick orientation. Don't dwell.
@@ -490,6 +490,22 @@ the rest comes together. I refused to hope. I stayed.
 
 ---
 
+<div>
+<iframe
+  style="border: 0; width: 400px; height: 406px;"
+  src="https://bandcamp.com/EmbeddedPlayer/album=1522315087/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/"
+  seamless
+>
+  <a href="https://spinello-band.bandcamp.com/album/be-style">Be-Style by Spinello</a>
+</iframe>
+</div>
+
+<div>
+<span class="quiet">Okefenokee, 3'24": open break leads to guitar solo.</span>
+</div>
+
+---
+
 <!-- _class: lead -->
 
 <div class="huge">Don't ship the file<br />and walk away.</div>
@@ -654,7 +670,7 @@ That's the docs team I want to be on.
 
 Lock the foundation, then play.
 
-Find the voice with the band, not for it.
+Find the voice with the band, not for the band.
 
 Stay for the mix.
 
