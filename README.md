@@ -1,20 +1,28 @@
-# Rock the docs 🤘
+# 🔊 Rock the docs 🤘😎
 
 > Applying music theory and band dynamics to technical writing.
 > A ~30-minute conference talk by Marco Spinello.
 
-A talk about what a power trio can teach a docs team. Built as a [Marp](https://marp.app/) deck rendered from a single Markdown file. The thesis fits on a t-shirt: **writers are bandmates, not session musicians.** Everything else is just music theory in the right key.
+A talk about what a power trio can teach a docs team.
+Built as a [Marp](https://marp.app/) deck rendered from a single Markdown file. 
+The thesis fits on a t-shirt: **writers are bandmates, not session musicians.**
+Everything else is just music theory in the right key.
 
 ## What the talk covers
 
-"Rock the docs" walks through the anatomy of a working band — the rhythm section, the voice, the producer's chair, the rig — and maps each role onto a part of a technical writer's job. Stories from the speaker's own instrumental power trio (including songs from the album *Be-Style*) anchor the metaphor; tactical takeaways turn it into something you can act on Monday morning.
+*Rock the docs* walks through the anatomy of a working band — the rhythm section, the voice, the producer's chair, the rig — and maps each role onto a part of a technical writer's job.
+Stories from the speaker's own instrumental power trio (including songs from the album *Be-Style*) anchor the metaphor; tactical takeaways turn it into something you can act on right away.
 
 The four sections:
 
-- **Foundation** — the rhythm section. Style guides, information architecture, linters: the stuff nobody applauds and everyone needs.
-- **Voice** — what the band sounds like. Why voice is a band sport, not a writer's solo.
-- **Polish** — the producer's chair. Mixing, reviewing, and staying in the room until the work is done.
-- **Tooling** — the workflow as instrument. CI, doc-as-code, and what you automate becomes what you can sound like.
+- **Foundation** — the rhythm section.
+  Style guides, information architecture, linters: the stuff nobody applauds and everyone needs.
+- **Voice** — what the band sounds like.
+  Why voice is a band sport, not a writer's solo.
+- **Polish** — the producer's chair.
+  Mixing, reviewing, and staying in the room until the work is done.
+- **Tooling** — the workflow as instrument.
+  CI, doc-as-code, and what you automate becomes what you can sound like.
 
 ## Repo layout
 
@@ -34,13 +42,15 @@ The four sections:
 Pre-rendered builds are committed to `output/`:
 
 - HTML — open `output/slides.html` in a browser
-- PDF — `output/slides.pdf`
-- PPTX — `output/slides.pptx`
+- PDF — open `output/slides.pdf`
+- PPTX — open `output/slides.pptx`
 
 ## Prerequisites
 
 - **Node.js** 18 or later, with `npm`
-- A **Chromium-class browser** (Chrome, Edge, Brave, or standalone [Chromium](https://www.chromium.org/)) is required by `marp-cli` for PDF and PPTX export. HTML build and live preview work without it.
+- A **Chromium-class browser**
+  (Chrome, Edge, Brave, or standalone [Chromium](https://www.chromium.org/)) is required by `marp-cli` for PDF and PPTX export.
+  HTML build and live preview work without it.
 
 ## Setup
 
@@ -71,7 +81,8 @@ All build commands honor `.marprc.yml` and pass `--allow-local-files` so referen
 
 ## Author
 
-**Marco Spinello** — Senior technical writer at Booking.com. Guitar in an instrumental power trio.
+**Marco Spinello** — Senior technical writer.
+Guitar in an instrumental power trio.
 
 - LinkedIn: [in/marco-spinello](https://www.linkedin.com/in/marco-spinello/)
 - GitHub: [@marcospinello](https://github.com/marcospinello)
