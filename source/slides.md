@@ -137,7 +137,7 @@ Photographable slide #1 — people will start typing.
 - 🎸 Guitar player in an instrumental power trio
 - 🎚️ Co-mixed and co-mastered our album
 - 🤷 No CS background
-- 🐾 curious as a cat.
+- 🐾 Curious as a cat
 
 <!--
 ~30 seconds. The detail that matters is the third bullet:
@@ -212,7 +212,7 @@ same drift every time.
 
 ---
 
-## What "session musician" mindset misinterprets
+## What "session musician" mindset misinterprets about foundation
 
 ![bg right:50%](../assets/img/foundation-broken.jpg)
 
@@ -473,7 +473,7 @@ ride/crash — the Bonham/Zeppelin signature feel.)
 - Bridge humbucker for fatness
 - EQ for warmth
 - Reverb for thickness
-- Delay for depth.
+- Delay for depth
 
 (Many) takes and mix decisions deliberately guide to the solo.
 
@@ -588,9 +588,9 @@ kinds of moves you can even attempt.
 
 ![bg left:50%](../assets/img/workflow.jpg)
 
-- Live tracking with click: fault tolerant.
+- Live tracking with click: fault tolerant
 - Rough mixes as we went: fast iteration
-- Two raw mixes: check points
+- Two raw mixes: checkpoints
 
 <span class="accent">**Review comments, approval: git PR review**</span>
 
@@ -610,6 +610,28 @@ The whole recording ran like a well-managed repo:
 
 The point: *workflow is the tooling*. Every practice we used has a docs analog
 you already know. The next slide makes them concrete.
+-->
+
+---
+
+## What "session musician" mindset misinterprets about tooling
+
+![bg left:50%](../assets/img/workflow-tooling.jpg)
+
+> *The platform is what we got given* \
+> *Tooling is the platform team's problem* \
+> *Workflow is overhead, not craft*
+
+<!--
+Same beat as the other three sections. The session-musician treats tooling as
+something handed down — the platform team's CMS, the CI someone else maintains,
+the workflow that exists because it always has. Nobody asks what the rig is
+shaping.
+
+The bandmate treats tooling as the rig: choosable, swappable, part of the sound.
+What you automate becomes what you're allowed to sound like.
+
+TODO: add a background image, e.g. ../assets/img/tooling-disowned.jpg
 -->
 
 ---
@@ -636,7 +658,7 @@ doesn't support review-as-you-write, you don't have review.
 
 ## Audit your writer workflow
 
-![bg right:50%](../assets/img/tooling-monday-1.png)
+![bg left:50%](../assets/img/tooling-monday-1.png)
 
 ### What would a bandmate change?
 
@@ -656,7 +678,7 @@ A bandmate optimizes the rig because the rig shapes the music.
 
 ## The 8-piece became a trio
 
-![bg left:50%](../assets/img/trio-stage.jpg)
+![bg right:50%](../assets/img/trio-stage.jpg)
 
 ### It worked out because everyone was a bandmate
 
@@ -701,7 +723,7 @@ If only one slide makes it onto Twitter, this is the one.
 
 ## Thank you 🙏
 
-![bg right:50%](../assets/img/thank-you.jpg)
+![bg left:50%](../assets/img/thank-you.jpg)
 
 <span class="quiet">Questions, arguments, band recommendations — all welcome. ✨</span>
 
@@ -711,7 +733,7 @@ If only one slide makes it onto Twitter, this is the one.
 
 <i class="fa-brands fa-github"></i> [marcospinello](https://github.com/marcospinello)
 
-<i class="fa-brands fa-bandcamp"></i> [Be-style EP](https://spinello-band.bandcamp.com/album/be-style) 🔊 🎶
+<i class="fa-brands fa-bandcamp"></i> [Be-Style EP](https://spinello-band.bandcamp.com/album/be-style) 🔊 🎶
 
 <!--
 Q&A. Stay loose. The talk is the talk; the conversation after is where you find
