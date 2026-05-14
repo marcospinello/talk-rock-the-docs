@@ -212,7 +212,7 @@ same drift every time.
 
 ---
 
-## What "session musician" mindset misinterprets about foundation
+## What "session musician" mindset misinterprets
 
 ![bg right:50%](../assets/img/foundation-broken.jpg)
 
@@ -324,7 +324,7 @@ Main riff: bass groove + guitar harmony + drum accents = voice
 
 ---
 
-## What "session musician" mindset misinterprets about voice
+## What "session musician" mindset misinterprets
 
 ![bg right:50%](../assets/img/voice-cop.jpg)
 
@@ -530,7 +530,7 @@ the audience can choose to do, or choose not to.
 
 ---
 
-## What "session musician" mindset misinterprets about polish
+## What "session musician" mindset misinterprets
 
 ![bg right:50%](../assets/img/polish-disowned.jpg)
 
@@ -614,9 +614,9 @@ you already know. The next slide makes them concrete.
 
 ---
 
-## What "session musician" mindset misinterprets about tooling
+## What "session musician" mindset misinterprets
 
-![bg left:50%](../assets/img/workflow-tooling.jpg)
+![bg right:50%](../assets/img/workflow-tooling.jpg)
 
 > *The platform is what we got given* \
 > *Tooling is the platform team's problem* \
