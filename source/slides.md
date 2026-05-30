@@ -52,15 +52,17 @@ cold open and may seed Q&A.
 
 <!-- _class: lead -->
 
-# 🔊 Rock the docs 🤘😎
+## 🔊 Rock the docs 🤘😎
 
 ![bg left:50%](../assets/img/title-stage.jpg)
 
-### Bandmates are just loud tech writers
+### Bandmates are loud tech writers
 
 *Marco Spinello*
 
 Senior technical writer at Booking.com
+
+*(Talk title courtesy of [Daria Lutchenko, UP42](https://www.linkedin.com/in/daria-lutchenko/))*
 
 <!--
 Welcome the room. The 🤘😎 is on purpose — sets the tone now, not later.
