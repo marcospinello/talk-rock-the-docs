@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file guides Claude Code when working in this repository.
+This file guides Codex when working in this repository.
 
 ## Web search
 
