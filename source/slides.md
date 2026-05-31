@@ -194,6 +194,16 @@ The point: the rhythm section isn't multiple people doing similar jobs.
 It's a single system, locked together. That's information architecture.
 That's a style guide everyone follows. That's the linter that catches the
 same drift every time.
+
+Play EMPIRE STATE BUILDING
+
+  Audio 1 - reggae
+    Start: 00:11
+    Stop: 00:31
+
+  Audio 2 - disco
+    Start: 02:09
+    Stop: 01:31
 -->
 
 ---
@@ -230,6 +240,11 @@ someone else's job — the IA team, the linter, the platform.
 
 But the band that ignores its foundation falls apart in the first chorus.
 If your foundation is broken, no one hears the song.
+
+Play YOU'VE GOT MALE
+  Audio 1
+    Start: 01:27
+    Stop: 01:58
 -->
 
 ---
@@ -306,6 +321,11 @@ We're going to challenge that.
 <!--
 Voice isn't who holds the microphone. It's what the band agrees on.
 Main riff: bass groove + guitar harmony + drum accents = voice
+
+Play FIRST BORN
+  Audio 1
+    Start: 00:47
+    Stop: 01:10
 -->
 
 ---
@@ -323,6 +343,13 @@ Main riff: bass groove + guitar harmony + drum accents = voice
 <div>
   <span class="quiet">First Born: three layers, one voice, one groove.</span>
 </div>
+
+<!--
+Play FIRST BORN
+  Audio 2
+    Start: 01:58
+    Stop: 02:22
+-->
 
 ---
 
@@ -464,6 +491,17 @@ we agreed in the rehearsal room that this section breathes.
 
 (Clarify "Drums go Bonham" aloud as needed: deep kick, deep toms, ethereal
 ride/crash — the Bonham/Zeppelin signature feel.)
+
+Play OKEFENOKEE
+  Audio 1
+    Start: 02:22
+    Stop: 03:32
+
+    Start: 02:44
+    Stop: 03:20
+
+    Start: 03:24
+    Stop: 04:16
 -->
 
 ---
@@ -497,6 +535,11 @@ same image. That's what bandmates do. Session musicians track their part and hop
 the rest comes together. I refused to hope. I stayed.
 
 (Bridge to next slide: "I didn't ship the file and walk away. I stayed for the mix.")
+
+Play OKEFENOKEE - solo
+  Audio 2
+    Start: 04:39
+    Stop: 05:20
 -->
 
 ---
@@ -717,6 +760,24 @@ Choose your workflow like an instrument.
 The photographable slide. Read it once, slow. Then stop talking.
 
 If only one slide makes it onto Twitter, this is the one.
+
+Play HEADING INTO THE UNKNOWN
+  Audio 1 - drums + guitar "unison"
+    Start: 03:12
+    Stop: 03:17
+
+  Audio 2 - sleepy solo
+    Start: 04:28
+    Stop: 04:55
+
+Play BE STYLE
+  Audio 1 - the simpsons
+    Start: 03:15
+    Stop: 03:20
+
+  Audio 2 - 7/4 section
+    Start: 04:02
+    Stop: 04:51
 -->
 
 ---
@@ -741,7 +802,6 @@ If only one slide makes it onto Twitter, this is the one.
 Q&A. Stay loose. The talk is the talk; the conversation after is where you find
 out what landed.
 
-TODO before talk: replace [your handle] placeholders with real handles.
 -->
 
 ---
