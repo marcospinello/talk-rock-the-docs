@@ -8,6 +8,8 @@ Built as a [Marp](https://marp.app/) deck rendered from a single Markdown file.
 The thesis fits on a t-shirt: **writers are bandmates, not session musicians.**
 Everything else is just music theory in the right key.
 
+✨ *A truckload packed full of thank you notes to [**Daria Lutchenko**](https://github.com/dustgalactic) for suggesting the title of the talk* 🚚 🙏 🫶
+
 ## What the talk covers
 
 *Rock the docs* walks through the anatomy of a working band — the rhythm section, the voice, the producer's chair, the rig — and maps each role onto a part of a technical writer's job.
