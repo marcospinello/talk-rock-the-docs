@@ -2,11 +2,6 @@
 
 This file guides Claude Code when working in this repository.
 
-## Web search
-
-Do not use the built-in WebSearch tool. It does not work at Booking.com.
-Use the websearch MCP tools (`mcp__websearch__*`) for web searches instead.
-
 ## Repository purpose
 
 A single [Marp](https://marp.app/) presentation deck: "Rock the docs 🤘".
